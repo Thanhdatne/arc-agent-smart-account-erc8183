@@ -12,7 +12,7 @@ A comprehensive end-to-end demonstration of the **ERC-8183** (Agent Job Protocol
 
 Most blockchain agent examples are limited to simple asset transfers. This repository demonstrates a **full commercial workflow** required for real-world agent economies:
 * **Programmable Escrow:** Payments are locked securely until job completion.
-* **Role Separation:** Distinct logic for **Clients** (Requesters) and **Providers** (Executors).
+* **Role Separation:** Roles (**Client**, **Provider**) are simulated via separate smart accounts (**not autonomous agents**).
 * **Native USDC Gas:** Leveraging Arc's unique architecture where USDC covers gas fees, removing the need for native ETH/ARC tokens.
 
 ## 🧠 The Mental Model (ERC-8183)
