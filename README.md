@@ -80,6 +80,7 @@ Execute the automated end-to-end flow from job creation to final payment settlem
 ```
 npm run job
 ```
+<img width="842" height="345" alt="erc8183" src="https://github.com/user-attachments/assets/bc681247-4f9c-4f79-a818-d861acbecb9b" />
 
 ### Step 2: Fund the Client
 
@@ -91,6 +92,7 @@ The Client requires **USDC** on Arc Testnet for gas and escrow payments.
 * **Token:** `USDC` (Arc Testnet)
 * **💡 Note:** Ensure the Client wallet has at least **10-20 USDC** to cover both gas fees and job costs.
 
+<img width="783" height="129" alt="DONE 8183" src="https://github.com/user-attachments/assets/845b3bae-cc56-486c-b91f-9438ae73b045" />
 
 
 ## ⚠️ Key Insights
