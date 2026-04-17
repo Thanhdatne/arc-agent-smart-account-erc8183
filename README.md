@@ -44,6 +44,7 @@ graph TD
 
 ## ⚙️ Setup & Installation
 **1. Prerequisites**
+
 Node.js ≥ v22
 
 Circle Developer Account: Get API Key
@@ -57,13 +58,13 @@ cd arc-agent-smart-account-erc8183
 npm install
 ```
 
-3. Configuration
-Create a .env file from the example:
+**3. Configuration**
+**Create a .env file from the example:**
 
 ```
 cp .env.example .env
 ```
-Fill in your credentials:
+**Fill in your credentials:**
 
 ```
 CIRCLE_API_KEY=your_circle_api_key
@@ -72,25 +73,25 @@ CIRCLE_ENTITY_SECRET=your_32_byte_hex_secret
 
 ## 🧾 Usage Guide
 
-**Step 1: Initialize Wallets**
-Generate the Smart Contract Accounts (SCA) for both the Client and Provider roles.
+**Step 1: Run the Job**
+
+Execute the automated end-to-end flow from job creation to final payment settlement.
 
 ```
-npm run create-wallet
+npm run job
 ```
+
 ### Step 2: Fund the Client
+
+The program will pause to allow you to top up your client wallet using Arc Testnet **USDC**
+
 The Client requires **USDC** on Arc Testnet for gas and escrow payments.
 
 * **Faucets:** [Circle Faucet](https://faucet.circle.com) or [Console Faucet](https://console.circle.com/faucet)
 * **Token:** `USDC` (Arc Testnet)
 * **💡 Note:** Ensure the Client wallet has at least **10-20 USDC** to cover both gas fees and job costs.
 
-**Step 3: Run the Job Lifecycle**
-Execute the automated end-to-end flow from job creation to final payment settlement.
 
-```
-npm run job
-```
 
 ## ⚠️ Key Insights
 
