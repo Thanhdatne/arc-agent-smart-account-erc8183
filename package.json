@@ -1,0 +1,17 @@
+{
+  "name": "arc-ai-agent-registration-guide",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "tsx --env-file=.env index.ts"
+  },
+  "dependencies": {
+    "@circle-fin/developer-controlled-wallets": "^1.4.1",
+    "viem": "^2.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
