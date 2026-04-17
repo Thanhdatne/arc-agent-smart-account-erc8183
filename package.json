@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "start": "tsx --env-file=.env index.ts",
+    "dev": "tsx watch --env-file=.env test-erc8183-job.ts",
     "create-wallet": "tsx --env-file=.env create-sca-wallet.ts",
     "job": "tsx --env-file=.env job.ts"
 }
