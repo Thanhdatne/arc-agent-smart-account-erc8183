@@ -53,7 +53,7 @@ Entity Secret: Generated for Circle's Programmable Wallets.
 
 **2. Installation**
 ```
-git clone [https://github.com/Thanhdatne/arc-agent-smart-account-erc8183.git](https://github.com/Thanhdatne/arc-agent-smart-account-erc8183.git)
+git clone https://github.com/Thanhdatne/arc-erc8183-job-demo.git
 cd arc-agent-smart-account-erc8183
 npm install
 ```
