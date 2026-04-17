@@ -1,5 +1,5 @@
 {
-  "name": "arc-agent-smart-account-erc8183",
+  "name": "arc-erc8183-job-demo",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
