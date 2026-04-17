@@ -107,5 +107,5 @@ Gas Abstraction: Notice that neither wallet needs native ARC tokens. The Arc Net
 ## 🔗 Resources
 
 * [Arc Network Documentation](https://docs.arc.network) - Learn more about Arc's architecture and USDC as gas.
-* [Circle Programmable Wallets](https://developers.circle.com/w3s/docs/programmable-wallets) - Explore Circle's SCA and W3S infrastructure.
+* [Circle Programmable Wallets](https://developers.circle.com/w3s/docs/programmable-wallets) - Explore Circle SCA and W3S infrastructure.
 * [ERC-8183 Specification](https://github.com/ethereum/ERCs/pull/8183) - Technical details of the Agent Job Protocol.
